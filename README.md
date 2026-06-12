@@ -7,7 +7,8 @@ Experiment code for the article:
 > leakage-aware machine learning baseline for intrusion detection"*, Ad Hoc Networks.
 
 These scripts train and evaluate the intrusion-detection models reported in the article on the
-**Zigbee_UAD dataset**, available on figshare: **_link to be added_**.
+**Zigbee_UAD dataset**, available on figshare
+(DOI: [10.6084/m9.figshare.32657583](https://doi.org/10.6084/m9.figshare.32657583)).
 
 ## Files
 
@@ -25,8 +26,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-Download the three CSV files of the dataset from the figshare record and pass their folder with
-`--data`. Run the stages in order:
+Download the three CSV files of the dataset from figshare and pass their folder with `--data`.
+Run the stages in order:
 
 ```
 python run_experiments.py importance --data PATH/TO/dataset
